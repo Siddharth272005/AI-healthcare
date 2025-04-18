@@ -33,7 +33,9 @@ const App = () => {
       <h1 className="poppins-bold">Healthcare App</h1>
       <InputForm onSubmit={handleFormSubmit} />
       <div>
-        <p className="output_text">{output}</p>
+      {
+        output && (<><p className="output_text">{output}</p></>)
+      }
       </div>
       </div>
       </AuroraBackground>
