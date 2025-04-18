@@ -1,0 +1,41 @@
+#root {
+  width: 100%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+.chat_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  background-image: url(../public//images/bg-image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  & h1{
+    color: blue;
+    font-size: 50px;
+  }
+
+  & .output_text{
+    margin-top: 10px;
+    max-width: 60vw;
+    border: 2px solid #e9d8a6;
+    background-color: #f7e8bb;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 6px 8px;
+  }
+}
